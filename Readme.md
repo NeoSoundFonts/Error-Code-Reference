@@ -19,6 +19,9 @@
 - 0x00000201 - Missing CC0 samples for a position, therefore cannot be implemented
 - 0x00000202 - Wrong Position
 - 0x00000203 - Bad Parameters
+- 0x000002FF - Reserved Patch, indicates at follow:
+  - Instrument Name: **R-InstrumentLayer**
+  - Preset Name: **(Reserved Patch)**
 
 ## Submissions
 
