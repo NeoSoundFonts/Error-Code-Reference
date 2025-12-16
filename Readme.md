@@ -13,6 +13,8 @@
 - 0x00000109 - DSP FX was added in the sample
 - 0x0000010A - Sample Rate less than 44100Hz
 - 0x0000010B - Bit Depth less than 16
+- 0x000001F0 - Stuck in sequences (e.g. Loops, Phrases)
+- 0x000001F1 - Stuck in chords
 
 ## Patches
 
