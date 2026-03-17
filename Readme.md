@@ -37,3 +37,8 @@
 - 0x00000411 - Free for non-commercial use only
 - 0x00000412 - Modification is prohibited
 - 0x00000413 - Cannot be redistributed without permission
+
+## Links
+
+- 0x01000001 - Dead Link
+- 0x01000002 - Unsupported file hosts
