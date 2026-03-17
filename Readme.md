@@ -29,6 +29,7 @@
 
 - 0x00000301 - Not using **Creative Commons 0 1.0** license for original recordings
 - 0x00000302 - Recorded from commercial plugins, arranger keyboards, etc, as they're in Grey Area
+- 0x00000303 - License Violation
 - 0x00000311 - Raw samples for Electric Guitar/Bass are not provided
 
 ## Projects
