@@ -11,8 +11,9 @@
 - 0x00000107 - Samples are painful to listen to
 - 0x00000108 - Distorted instrument samples
 - 0x00000109 - DSP FX was added in the sample
-- 0x0000010A - Sample Rate less than 44100Hz
-- 0x0000010B - Bit Depth less than 16
+- 0x0000010A - Detuned samples
+- 0x0000010B - Sample Rate less than 44100Hz
+- 0x0000010C - Bit Depth less than 16
 - 0x000001F0 - Stuck in sequences (e.g. Loops, Phrases) in a sample (Instead of project files, such as .it (Tracker), .mid (MIDI Sequence), .mmpz (LMMS Project file), etc.)
 - 0x000001F1 - Stuck in chords in a sample
 
