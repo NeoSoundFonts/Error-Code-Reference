@@ -19,7 +19,7 @@
 
 ## Patches
 
-- 0x00000201 - Missing CC0-licensed samples for a position, therefore cannot be implemented
+- 0x00000201 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x00000202 - Wrong Position
 - 0x00000203 - Bad Parameters
 - 0x000002FF - Reserved Patch, indicates at follow:
@@ -45,3 +45,4 @@
 
 - 0x01000001 - Dead Link
 - 0x01000002 - Unsupported file hosts
+- 0x01000011 - Upload failure on GitHub Releases
