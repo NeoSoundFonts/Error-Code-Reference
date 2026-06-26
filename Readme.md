@@ -16,6 +16,7 @@
 - 0x0000010C - Sample Rate less than 44100Hz
 - 0x0000010D - Bit Depth less than 16
 - 0x0000010E - Bad Loop Range (e.g. Crossfade issue, Phaser Cancellation issue, etc.)
+- 0x0000010F - Lossy compression audio format (e.g. MP3, OGG, OPUS, etc.)
 - 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form, such as .it (Tracker), .mptm (OpenMPT), .mid (MIDI Sequence), .mmpz (LMMS Project file), etc.)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
@@ -79,6 +80,7 @@
 - 0x00000606 - Cannot be redistributed as original form (e.g. MT Power Kit)
 - 0x00000607 - Cannot be sold
 - 0x00000608 - Cannot be used on live performance
+- 0x0000060E - Cannot be used on AI-related purposes
 - 0x0000060F - Misc. restrictions
 - 0x00000611 - Share under same license (e.g. CC-BY-SA)
 - 0x000006F1 - License Violation for free licenses (e.g. Violated GNU GPL v3 license)
@@ -87,6 +89,7 @@
 - 0x000006F4 - Patent Infringement
 - 0x000006F5 - Trademark Infringement
 - 0x000006F6 - Registered Trademark Infringement
+- 0x000006F7 - Plagarism Contents
 - 0x000006FE - No license has been specified
 - 0x000006FF - Licensing Gray Area, and therefore non-free. For example, Unknown License or Dubious Sources.
 
