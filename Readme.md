@@ -20,6 +20,7 @@
 - 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form, such as .it (Tracker), .mptm (OpenMPT), .mid (MIDI Sequence), .mmpz (LMMS Project file), etc.)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
+- 0x000001F3 - Multiple instruments combined in one sample, without providing source files
 
 ## Patches
 
@@ -40,7 +41,7 @@
 
 ## Projects
 
-- 0x00000401 - File too large, or out of filesize limit (e.g. Cloudflare Free/Pro is 100MB)
+- 0x00000401 - File too large, or out of filesize limit for a host (e.g. Cloudflare Free/Pro is 100MB)
 - 0x00000402 - Project doesn't meet DFSG guidelines
 - 0x00000403 - We won't produce non-free sample libraries
 - 0x00000404 - We only do sequences (e.g. Loops) for source code forms (e.g. it, mptm, mmpz, mid, etc)
@@ -80,6 +81,7 @@
 - 0x00000606 - Cannot be redistributed as original form (e.g. MT Power Kit)
 - 0x00000607 - Cannot be sold
 - 0x00000608 - Cannot be used on live performance
+- 0x00000609 - Not for commercial distribution
 - 0x0000060E - Cannot be used on AI-related purposes
 - 0x0000060F - Misc. restrictions
 - 0x00000611 - Share under same license (e.g. CC-BY-SA)
@@ -97,4 +99,5 @@
 
 - 0x01000001 - Dead Link
 - 0x01000002 - Unsupported file hosts
+- 0x01000003 - Bug occured in a host
 - 0x01000011 - Upload failure on GitHub Releases
