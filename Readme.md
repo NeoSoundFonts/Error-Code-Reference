@@ -17,16 +17,17 @@
 - 0x0000010D - Bit Depth less than 16
 - 0x0000010E - Bad Loop Range (e.g. Crossfade issue, Phaser Cancellation issue, etc.)
 - 0x0000010F - Lossy compression audio format (e.g. MP3, OGG, OPUS, etc.)
-- 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form, such as .it (Tracker), .mptm (OpenMPT), .mid (MIDI Sequence), .mmpz (LMMS Project file), etc.)
+- 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
-- 0x000001F3 - Multiple instruments combined in one sample, without providing source files
+- 0x000001F3 - Multiple instruments were combined into one sample, without providing source files
 
-## Patches
+## Patches and Banks
 
-- 0x00000201 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
-- 0x00000202 - Wrong Position
-- 0x00000203 - Bad Parameters
+- 0x00000201 - Wrong Position
+- 0x00000202 - Bad Parameters
+- 0x00000203 - Duplicate instruments
+- 0x000002F1 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x000002FF - Reserved Patch, indicates at follow:
   - Instrument Name: **R-InstrumentLayer**
   - Preset Name: **(Reserved Patch)**
@@ -35,17 +36,20 @@
 
 - 0x00000301 - Used non-free license for original recordings, meaning they're not for Free Cultral Works
 - 0x00000302 - Recorded from commercial plugins, arranger keyboards, etc, as they're copyrighted by original manufactors, meaning the **end users** have to buy legal products for use. Also known as samples of samples.
+- 0x00000303 - AI-Generated samples, cannot guarantee that can be licensed under free licenses
 - 0x00000311 - Raw samples for Electric Guitar/Bass are not provided
 - 0x00000321 - Used other free licenses (Other than **Creative Commons 0 1.0**) for original recordings, meaning they cannot be imported to CC0-licensed project
-- 0x00000331 - Recorded sequences (e.g. Loops) in the audio form. Please send individal sample files!
+- 0x00000331 - Recorded sequences (e.g. Loops) in the audio form. Please send individual sample files!
+- 0x00000332 - Recorded chords in the audio form. Please send individual notes!
 
 ## Projects
 
 - 0x00000401 - File too large, or out of filesize limit for a host (e.g. Cloudflare Free/Pro is 100MB)
 - 0x00000402 - Project doesn't meet DFSG guidelines
 - 0x00000403 - We won't produce non-free sample libraries
-- 0x00000404 - We only do sequences (e.g. Loops) for source code forms (e.g. it, mptm, mmpz, mid, etc)
-- 0x00000405 - Incompatible with "GNU GPL + Non-GPL licensed Audio exception" combo
+- 0x00000404 - We only do sequences (e.g. Loops) for source code forms (e.g. it (Tracker), mptm (OpenMPT), mid (MIDI Sequence), mmpz (LMMS Project file), etc.)
+- 0x00000405 - Incompatible with "GNU GPL + Non-GPL licensed audio exception" combo
+- 0x00000411 - SF3 format (OGG compressed samples, lossy compression)
 - 0x00000421 - Redundant project, which will be merged to other project
 - 0x000004FF - Wait for FreePats to finish General MIDI™ Bank
 
@@ -78,7 +82,7 @@
 - 0x00000603 - Modification is prohibited without original author's permission (e.g. Maestro Concert Grand)
 - 0x00000604 - Cannot be redistributed
 - 0x00000605 - Cannot be redistributed without original author's permission (e.g. Maestro Concert Grand)
-- 0x00000606 - Cannot be redistributed as original form (e.g. MT Power Kit)
+- 0x00000606 - Cannot be redistributed as original form (e.g. MT Power Kit, Philharmonia Orchestra Samples)
 - 0x00000607 - Cannot be sold
 - 0x00000608 - Cannot be used on live performance
 - 0x00000609 - Not for commercial distribution
@@ -92,12 +96,14 @@
 - 0x000006F5 - Trademark Infringement
 - 0x000006F6 - Registered Trademark Infringement
 - 0x000006F7 - Plagarism Contents
-- 0x000006FE - No license has been specified
-- 0x000006FF - Licensing Gray Area, and therefore non-free. For example, Unknown License or Dubious Sources.
+- 0x000006FD - AI-Generated Contents are marked incorrectly
+- 0x000006FE - No license has been specified, therefore learning and communities only, and you should delete your downloaded files after 24 hours.
+- 0x000006FF - Licensing Gray Area, and therefore learning and communities only, and you should delete your downloaded files after 24 hours. For example, Unknown License or Dubious Sources.
 
-## Links
+## Links and Hosts
 
 - 0x01000001 - Dead Link
 - 0x01000002 - Unsupported file hosts
-- 0x01000003 - Bug occured in a host
+- 0x01000003 - Bug occurred in a host
 - 0x01000011 - Upload failure on GitHub Releases
+- 0x01000021 - Cloudflare Error
