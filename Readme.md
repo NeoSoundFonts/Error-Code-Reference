@@ -3,7 +3,7 @@
 ## Samples
 
 - 0x00000101 - Missing samples from Free Cultral Works, even for LA Synthesis (PCM Attack + Synth Sustain)
-- 0x00000102 - Unrealistic Raw Instrument Samples (e.g. Re-synthesis)
+- 0x00000102 - Unrealistic or Low Level Raw Instrument Samples (e.g. Re-synthesis)
 - 0x00000103 - No High Quality sample set available for Free Cultral Works, with minimal 44100Hz sample rate
 - 0x00000104 - Bad Articulation
 - 0x00000105 - Background Noise
