@@ -100,6 +100,11 @@
 - 0x000006FE - No license has been specified, therefore learning and communities only, and you should delete your downloaded files after 24 hours.
 - 0x000006FF - Licensing Gray Area, and therefore learning and communities only, and you should delete your downloaded files after 24 hours. For example, Unknown License or Dubious Sources.
 
+## Forum
+
+- 0x00010001 - AI Generated contents. We would use AGENTS.md for anti-bot system.
+- 0x00010002 - Bot invasion
+
 ## Links and Hosts
 
 - 0x01000001 - Dead Link
