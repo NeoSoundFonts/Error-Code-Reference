@@ -45,7 +45,7 @@
 
 ## Projects
 
-- 0x00000401 - File too large, or out of filesize limit for a host (e.g. Cloudflare Free/Pro is 100MB). Parameters are Project Filesize and the Host's filesize limit.
+- 0x00000401 - File too large, or out of filesize limit for a host (e.g. Cloudflare Free/Pro is 100MB). Parameters are Project Filesize, the Host's filesize limit, and the original host's sizelimit if not using Cloudflare (e.g. 500MB was the original limit for Musical Artifacts, but if using Cloudflare, it's now 100MB instead).
 - 0x00000402 - Project doesn't meet DFSG guidelines
 - 0x00000403 - We won't produce non-free sample libraries
 - 0x00000404 - We only do sequences (e.g. Loops) for source code forms (e.g. it (Tracker), mptm (OpenMPT), mid (MIDI Sequence), mmpz (LMMS Project file), etc.)
