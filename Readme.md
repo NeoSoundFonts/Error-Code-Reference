@@ -28,6 +28,7 @@
 - 0x00000201 - Wrong Position
 - 0x00000202 - Bad Parameters
 - 0x00000203 - Duplicate instruments
+- 0x00000204 - Wrong Patch
 - 0x000002F1 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x000002FF - Reserved Patch, indicates at follow:
   - Instrument Name: **R-InstrumentLayer**
@@ -52,6 +53,7 @@
 - 0x00000405 - Incompatible with "GNU GPL + Non-GPL licensed audio exception" combo
 - 0x00000411 - SF3 format (OGG compressed samples, lossy compression)
 - 0x00000421 - Redundant project, which will be merged to other project
+- 0x00000431 - Soundbanks or Samples of Free Cultral Works were not submitted to NeoSF2 (e.g. NSMB DX Soundfont, IdOSounds)
 - 0x000004FF - Wait for FreePats to finish General MIDI™ Bank
 
 ## Resources
