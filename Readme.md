@@ -18,6 +18,7 @@
 - 0x0000010E - Bad Loop Range (e.g. Crossfade issue, Phaser Cancellation issue, etc.)
 - 0x0000010F - Lossy compression audio format (e.g. MP3, OGG, OPUS, etc.)
 - 0x00000110 - Pitch bend in the raw sample
+- 0x00000111 - Click sound in the sample
 - 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
