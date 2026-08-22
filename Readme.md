@@ -31,6 +31,7 @@
 - 0x00000202 - Bad Parameters
 - 0x00000203 - Duplicate instruments
 - 0x00000204 - Wrong Patch
+- 0x000002E1 - Lose quality slowly when using Polyphone 2.5.1 or older to save a soundbank file
 - 0x000002F1 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x000002FF - Reserved Patch, indicates at follow:
   - Instrument Name: **R-InstrumentLayer**
@@ -104,6 +105,11 @@
 - 0x000006FD - AI-Generated Contents are marked incorrectly
 - 0x000006FE - No license has been specified, therefore learning and communities only, and you should delete your downloaded files after 24 hours.
 - 0x000006FF - Licensing Gray Area, and therefore learning and communities only, and you should delete your downloaded files after 24 hours. For example, Unknown License or Dubious Sources.
+
+## Program
+
+- 0x00000701 - Lower than minimal system requirements
+- 0x00000702 - Linux system (e.g. Mint, Ubuntu) is not installed
 
 ## Forum
 
