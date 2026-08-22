@@ -31,7 +31,7 @@
 - 0x00000202 - Bad Parameters
 - 0x00000203 - Duplicate instruments
 - 0x00000204 - Wrong Patch
-- 0x000002E1 - Lose quality slowly when using Polyphone 2.5.1 or older to save a soundbank file
+- 0x000002E1 - Lose quality slowly when saving a soundbank file using Polyphone 2.5.1 or older each time
 - 0x000002F1 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x000002FF - Reserved Patch, indicates at follow:
   - Instrument Name: **R-InstrumentLayer**
