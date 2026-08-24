@@ -20,6 +20,7 @@
 - 0x00000110 - Pitch bend in the raw sample
 - 0x00000111 - Click sound in the sample
 - 0x00000112 - Recorded samples via Amplifier, instead of Direct
+- 0x00000113 - Not enough samples for an instrument
 - 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
@@ -30,7 +31,7 @@
 - 0x00000201 - Wrong Position
 - 0x00000202 - Bad Parameters
 - 0x00000203 - Duplicate instruments
-- 0x00000204 - Wrong Patch
+- 0x00000204 - Wrong Patch (e.g. FreePats FM Electric Piano 1, which occupied for Program 5 (Suitcase Electric Piano), it should be Program 6 instead)
 - 0x000002E1 - Lose quality slowly when saving a soundbank file using Polyphone 2.5.1 or older each time
 - 0x000002F1 - Missing CC0-licensed samples for a position, therefore cannot be implemented on a CC0-licensed project
 - 0x000002FF - Reserved Patch, indicates at follow:
@@ -115,6 +116,10 @@
 
 - 0x00010001 - AI Generated contents. We would use **AGENTS.md** for anti-bot system.
 - 0x00010002 - Bot invasion
+
+## Organization
+
+- 0x00020001 - We only use GitHub projects for plannings.
 
 ## Links and Hosts
 
