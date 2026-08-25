@@ -123,7 +123,8 @@
 - 0x00020001 - We only use GitHub projects for plannings.
 - 0x00020002 - Incooperation between NeoSF2 members
 - 0x00020003 - Planning timeout (Long-time not fulfilled)
-- 0x00020004 - Long time not tracking GitHub issues.
+- 0x00020004 - Not tracking GitHub issues in time
+- 0x00020005 - Long time not tracking GitHub issues
 
 ## Links and Hosts
 
