@@ -85,6 +85,7 @@
 
 ## Licenses
 
+- 0x00000600 - All Rights Reserved to original author or original manufacturer (Default)
 - 0x00000601 - Free for non-commercial use only (e.g. CC-BY-NC)
 - 0x00000602 - Modification is prohibited (e.g. CC-BY-ND)
 - 0x00000603 - Modification is prohibited without original author's permission (e.g. Maestro Concert Grand)
