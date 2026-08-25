@@ -3,7 +3,7 @@
 ## Samples
 
 - 0x00000101 - Missing samples from Free Cultral Works, even for LA Synthesis (PCM Attack + Synth Sustain)
-- 0x00000102 - Unrealistic or Low Level Raw Instrument Samples (e.g. Re-synthesis)
+- 0x00000102 - Unrealistic or Low Level Raw Instrument Samples (e.g. Re-synthesis), which doesn't meet NeoSF2 standard
 - 0x00000103 - No High Quality sample set available for Free Cultral Works, with minimal 44100Hz sample rate
 - 0x00000104 - Bad Articulation
 - 0x00000105 - Background Noise
@@ -21,6 +21,7 @@
 - 0x00000111 - Click sound in the sample
 - 0x00000112 - Recorded samples via Amplifier, instead of Direct
 - 0x00000113 - Not enough samples for an instrument
+- 0x00000114 - Dual mono samples, should be converted to Mono
 - 0x000001F0 - Instrument sample stuck in sequences (e.g. Loops, Phrases) in the rendered audio (Instead of source code form)
 - 0x000001F1 - Stuck in chords in a sample (e.g. Rhodes® MK7)
 - 0x000001F2 - Sample Attack only, meaning they can only be used for attack portion of LA Synthesis
@@ -120,6 +121,7 @@
 ## Organization
 
 - 0x00020001 - We only use GitHub projects for plannings.
+- 0x00020002 - Incooperation between NeoSF2 members
 
 ## Links and Hosts
 
