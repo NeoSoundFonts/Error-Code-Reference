@@ -2,8 +2,9 @@
 
 ## Samples
 
+- 0x00000100 - Samples doesn't meet NeoSF2 standard
 - 0x00000101 - Missing samples from Free Cultral Works, even for LA Synthesis (PCM Attack + Synth Sustain)
-- 0x00000102 - Unrealistic or Low Level Raw Instrument Samples (e.g. Re-synthesis), which doesn't meet NeoSF2 standard
+- 0x00000102 - Unrealistic or Low Level Raw Instrument Samples (e.g. Re-synthesis), or Garbage samples
 - 0x00000103 - No High Quality sample set available for Free Cultral Works, with minimal 44100Hz sample rate
 - 0x00000104 - Bad Articulation
 - 0x00000105 - Background Noise
@@ -29,6 +30,7 @@
 
 ## Patches and Banks
 
+- 0x00000200 - A problem of patch has been found
 - 0x00000201 - Wrong Position
 - 0x00000202 - Bad Parameters
 - 0x00000203 - Duplicate instruments
@@ -51,6 +53,7 @@
 
 ## Projects
 
+- 0x00000400 - A problem found in the project
 - 0x00000401 - File too large, or out of filesize limit for a host (e.g. Cloudflare Free/Pro is 100MB). Parameters are Project Filesize, the Host's filesize limit, and the original host's sizelimit if not using Cloudflare (e.g. 500MB was the original limit for Musical Artifacts, but if using Cloudflare, it's now 100MB instead).
 - 0x00000402 - Project doesn't meet DFSG guidelines
 - 0x00000403 - We won't produce non-free sample libraries
