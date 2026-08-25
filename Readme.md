@@ -126,6 +126,7 @@
 - 0x00020004 - All members are lazy
 - 0x00020005 - Long time not tracking GitHub Issues, or reviewing Pull Requests
 - 0x00020006 - A member is busy for other works
+- 0x00020007 - All members are busy for other works
 
 ## Links and Hosts
 
