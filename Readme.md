@@ -134,10 +134,11 @@
 - 0x00020006 - A member is busy for other works
 - 0x00020007 - All members are busy for other works
 
-## Links and Hosts
+## Links, Websites, and Hosts
 
 - 0x01000001 - Dead Link
 - 0x01000002 - Unsupported file hosts
 - 0x01000003 - Bug occurred in a host
+- 0x01000004 - A website is under DDoS Attack
 - 0x01000011 - Upload failure on GitHub Releases
 - 0x01000021 - Cloudflare Error
