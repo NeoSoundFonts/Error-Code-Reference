@@ -63,7 +63,7 @@
 - 0x00000411 - SF3 format (OGG compressed samples, lossy compression)
 - 0x00000421 - Redundant project, which will be merged to other project
 - 0x00000431 - Soundbanks or Samples of Free Cultral Works were not submitted to NeoSF2 (e.g. NSMB DX Soundfont, IdOSounds)
-- 0x000004FF - Wait for FreePats to finish General MIDI™ Bank
+- 0x000004FF - Wait for FreePats to finish General MIDI™ Bank for Free Cultral Works
 
 ## Resources
 
