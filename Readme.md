@@ -50,6 +50,7 @@
 - 0x00000321 - Used other free licenses (Other than **Creative Commons 0 1.0**) for original recordings, meaning they cannot be imported to CC0-licensed project
 - 0x00000331 - Recorded sequences (e.g. Loops) in the audio form. Please send individual sample files!
 - 0x00000332 - Recorded chords in the audio form. Please send individual notes!
+- 0x000003FF - Our sample sets are not contributed to FreePats, the organization for managing CC0 1.0-licensed samples, with trustable sources!
 
 ## Projects
 
