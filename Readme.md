@@ -146,3 +146,5 @@
 - 0x01000031 - Mirror link is used in Musical Artifacts instead of uploading files directly under the filesize limit (100MB)
 - 0x01000032 - Zipped files are used for small-sized SoundBanks, without including a README file
 - 0x010000F1 - Inaccessible link by a specific user
+- 0x010000F2 - Broken link
+- 0x010000F3 - Server Maintenance
