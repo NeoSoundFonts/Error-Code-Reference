@@ -117,7 +117,8 @@
 
 - 0x00000701 - Lower than minimal system requirements
 - 0x00000702 - Linux system (e.g. Mint, Ubuntu) is not installed
-- 0x000007E1 - Doesn't support VST3 directly (e.g. LMMS). You need to use a bridge (Kushview Element for example) for that.
+- 0x000007E1 - Doesn't support VST3 plugins directly (e.g. LMMS). You need to use a bridge (Kushview Element for example) for that.
+- 0x000007E2 - Doesn't support CLAP plugins directly (e.g. LMMS). You need to use a bridge (Kushview Element for example) for that.
 - 0x000007F1 - A feature doesn't work for alternative software
 
 ## Forum
